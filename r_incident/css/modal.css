@@ -1,0 +1,77 @@
+		.modal-body, .modal-header 
+		{
+		  font-family: 'Roboto', sans-serif;
+		  background-color: #202124;
+		  color: #f1f1f1;
+		  margin: 0;
+		  padding: 20px;
+		}
+		
+		.modal-header .close
+		{
+			background-color: red;
+		}
+		
+		h5 {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			margin: 0;
+			text-align: center;
+		}
+		
+		.modal-body form 
+		{
+			background-color: #333;
+			border: 1px solid #ccc;
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 600px;
+		}
+		
+		.modal-body label 
+		{
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		
+		.modal-body input[type=text], input[type=date], input[type=number], select
+		{
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			width: 100%;
+			box-sizing: border-box;
+			background-color: rgba(110, 110, 110, 0.45);
+			color: #f0f0f0;
+		}
+		
+		.modal-body input[type=submit]
+		{
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		
+		.modal-body input[type=file]
+		{
+			background-color: rgba(110, 110, 110, 0.45);
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		
+		
+		
+		
+		
+	

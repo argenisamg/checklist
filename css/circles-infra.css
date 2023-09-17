@@ -1,0 +1,47 @@
+.circles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-wrap: wrap; /* Nueva propiedad para ajustar el contenedor de los círculos en pantallas pequeñas */
+    margin: 0 auto; /* Añadido para centrar el contenedor */
+    max-width: 700px; /* Añadido para limitar el ancho del contenedor en pantallas grandes */
+  }
+  
+  .circle {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+  
+  .circle-text {
+    color: #414141;
+    font-size: 15px; /* 2emTamaño de letra relativo */
+    font-weight: bold;    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .circle {
+      width: 10px; /* Ajustado el tamaño de los círculos para pantallas pequeñas */
+      height: 10px;
+    }
+    .circle-text {
+      font-size: 8px; /*1.5em;  Ajustado el tamaño del texto para pantallas pequeñas */
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .circle {
+      width: 20px; /* Ajusta el tamaño de los círculos para pantallas grandes */
+      height: 20px;
+    }
+    .circle-text {
+      font-size: 10px; /* Ajusta el tamaño del texto para pantallas grandes */
+    }
+  }
+  

@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    /* background-image: url(../imagenes/fondonew.png); */        
+    background-position: 0 0; /* posiciona la imagen en la esquina superior izquierda */
+
+    background-color: #1A1F2B; /* Color de fondo */
+    background-image: linear-gradient(to bottom, #043098, #253545); /* Gradiente de colores */
+    background-size: cover;
+    background-position: center;
+      
+
+}
+  
+h1{
+	font-size: 1.5rem;
+	text-align: center	;
+	color: rgb(250, 250, 250); 
+}
+/* BASIC */
+#contenedor {
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro con transparencia */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno del contenedor */
+    margin: auto; /* Centrado horizontal */
+    width: 300px; /* Ancho máximo del contenedor */
+    /* Centrar horizontalmente los elementos dentro del contenedor */
+}
+
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.login table {
+    border-collapse: collapse; /* Estilo minimalista para la tabla */
+    width: 100%; /* Ancho de la tabla al 100% */
+}
+
+.login p {
+    margin: 5; /* Elimina el margen de los párrafos */
+    color: rgb(250, 250, 250); /* Color azul para el título */
+	margin-left: 15%;
+	text-align: left	;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    background-color: #333; /* Fondo oscuro para los textbox */
+    color: #fff; /* Texto en blanco */
+    border: none; /* Sin borde */
+    padding: 10px; /* Espacio interno del textbox */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio entre elementos */
+    width: 65%; /* Ancho al 100% */
+	text-align: left;
+	margin-left: 14%;
+}
+
+.login input[type="submit"] {
+    background-color: #043098; /* Fondo azul para el botón */
+    color: #fff; /* Texto en blanco */
+    border: none; /* Sin borde */
+    padding: 10px; /* Espacio interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+	margin-left: 25%;
+    margin-top: 15px; /* Espacio entre elementos */
+	margin-bottom: 15px;
+    width: 50%; /* Ancho al 100% */
+    cursor: pointer; /* Cursor de tipo mano */
+
+}
+
+.lista_id {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin espacio interno */
+    margin: 0; /* Sin margen */
+}
+
+.lista_id li {
+    background-color: #333; /* Fondo oscuro para los elementos de la lista */
+    color: #fff; /* Texto en blanco */
+    padding: 10px; /* Espacio interno de los elementos de la lista */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo mano */
+}
+
+.lista_id li:hover {
+    background-color: blue; /* Fondo azul al pasar el cursor por encima */
+}
+
+/* Para la animacion de logn in */
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

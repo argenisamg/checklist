@@ -1,0 +1,48 @@
+body {
+	background-color: #212121;
+	color: #fff;
+}
+.container {
+	margin-top: 50px;
+}
+.table-dark {
+	background-color: #424242;
+}
+.table-dark th {
+	border-color: #4d4d4d;
+}
+.table-dark td {
+	border-color: #4d4d4d;
+}
+.table-dark thead th {
+	background-color: #212121;
+	color: #fff;
+	border-color: #4d4d4d;
+}
+.table-dark tbody + tbody {
+	border-color: #4d4d4d;
+}
+.table-dark .table-active {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+.table-dark .table-hover .table-active:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+.table-dark .thead-light th {
+	background-color: #424242;
+	color: #fff;
+	border-color: #4d4d4d;
+}
+
+.input-group-append .btn
+{
+	position: absolute;
+	z-index: 6;
+}
+
+.btn
+{
+	background-color: green;
+	top: 55px;
+	margin-left: 500px;
+}
